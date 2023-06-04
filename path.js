@@ -1,7 +1,7 @@
 exports.pathModule=()=>{
     const path=require('path')
     console.log(`Current directory:${path.sep}`);
-    const pathName=path.join('nagaraj','mernFullStack','express')
+    const pathName=path.join('santhosh','mernFullStack','express')
     console.log(`Joinig Operation:${pathName}`);
     const baseName=path.basename(pathName)
     console.log(`BaseName of the PATH:${baseName}`);
